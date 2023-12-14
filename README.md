@@ -13,6 +13,26 @@ bypy - Python client for Baidu Yun (Personal Cloud Storage) 百度云/百度网�
 
 - 安装: `pip install bypy`
 - 运行: `bypy`
+- 源代码安装:
+
+```shell
+  # install venv if not ready
+  sudo apt install python3-virtualenv
+  # init venv
+  virtualenv venv
+  # active venv
+  . ./venv/bin/activate
+  # install requirement
+  pip install -r requirements.txt
+  # install from source code ?
+  pip install -e .
+  # install bypy
+  python setup.py install
+  # run bypy
+  bypy
+
+
+```
 
 TL;DR
 -----
