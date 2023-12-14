@@ -29,8 +29,10 @@ bypy - Python client for Baidu Yun (Personal Cloud Storage) 百度云/百度网�
   # install bypy
   python setup.py install
   # run bypy
-  bypy
-
+  bypy info
+  # 提示找不到auth.json 文件的解决办法
+  curl -LO https://raw.githubusercontent.com/houtianze/bypy/master/bypy/res/auth.json
+  # copy auth.json to 提示找不到的位置
 
 ```
 
